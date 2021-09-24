@@ -1,0 +1,7 @@
+    {{ form_start(form) }}
+
+{{ form_rest(form) }} 
+{# ici ça permet d'afficher le reste du questionnaire  #}
+
+    <button class="btn btn-primary"> {{button|default('Créer')}}</button>
+    {{ form_end(form) }} 
